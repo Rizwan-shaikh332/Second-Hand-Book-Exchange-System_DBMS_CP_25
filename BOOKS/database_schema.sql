@@ -4,7 +4,7 @@ CREATE TABLE Books (
     Title VARCHAR(255) NOT NULL,
     Author VARCHAR(255) NOT NULL,
     Genre VARCHAR(100),
-    Condition VARCHAR(50),
+    BookCondition VARCHAR(50),
     ISBN VARCHAR(20) UNIQUE,
     PriceOrPoints DECIMAL(10,2),
     Description TEXT,
